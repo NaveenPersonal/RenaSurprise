@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-img {
+  background-image: url("main-img.jpeg");
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.parallax1 {
+  background-image: url("First.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  border: 4px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.red-letter {
+  color: red;
+}
+
+.content h1 {
+  margin: 40px;
+  font-size: 4em;
+}
+
+.content h2 {
+  font-size: 50px;
+}
+
+.parallax2 {
+  background-image: url("Second.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.parallax3 {
+  background-image: url("Third.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.parallax4 {
+  background-image: url("Fourth.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.parallax5 {
+  background-image: url("Fifth.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.parallax6 {
+  background-image: url("Sixth.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
